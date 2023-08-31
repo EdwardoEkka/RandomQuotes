@@ -1,0 +1,77 @@
+/* Reset default margin and padding */
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* App container */
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #191b28;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styling */
+.App-header {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #252839;
+}
+
+/* Main title */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+/* Quote styling */
+.quote-container {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #313444;
+}
+
+/* Quote text */
+.quote {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.6;
+  color: #c2c5d1;
+}
+
+/* Generate button styling */
+.generate-button {
+  background-color: #5a67d8;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  outline: none;
+}
+
+/* Hover effect for the generate button */
+.generate-button:hover {
+  background-color: #7185e3;
+  transform: translateY(-2px);
+}
+
+/* Attribution */
+.attribution {
+  font-size: 0.8rem;
+  color: #6b7280;
+  margin-top: 10px;
+}
